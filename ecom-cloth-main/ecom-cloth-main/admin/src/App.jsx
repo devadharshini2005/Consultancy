@@ -9,10 +9,10 @@ import Login from './components/Login';
 import { ToastContainer } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 
-export const backendUrl = 'http://localhost:4000/';
+export const backendUrl = 'https://consultancy-fbur.onrender.com';
 
 console.log("Backend URL:", backendUrl);
-export const currency = '$';
+export const currency = '₹';
 
 const App = () => {
   const [token, setToken] = useState(localStorage.getItem('token')?localStorage.getItem('token'):''); 
