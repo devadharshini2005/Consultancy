@@ -14,7 +14,7 @@ const Hero = () => {
           </div>
           <h1 className='prata-regular text-3xl sm:py-3 lg:text-5xl leading-relaxed'>Latest Arrivals</h1>
           
-          <Link to="/collections">
+          <Link to="/collection">
             <button className='mt-5 px-6 py-3 text-sm sm:text-base bg-black text-white font-semibold rounded-full hover:bg-gray-800 transition-all duration-300'>
               SHOP NOW
             </button>
