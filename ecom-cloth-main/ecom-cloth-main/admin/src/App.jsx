@@ -9,7 +9,7 @@ import Login from './components/Login';
 import { ToastContainer } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 
-export const backendUrl = 'https://consultancy-fbur.onrender.com';
+export const backendUrl = 'https://consultancy-fbur.onrender.com/';
 
 console.log("Backend URL:", backendUrl);
 export const currency = '₹';
